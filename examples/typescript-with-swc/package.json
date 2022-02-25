@@ -22,7 +22,7 @@
     "webpack-dev-server": "4.7.4"
   },
   "scripts": {
-    "start": "cross-env PUBLIC_PATH=http://localhost:8080/ webpack serve --hot",
+    "start": "webpack serve --hot",
     "build": "cross-env NODE_ENV=production webpack"
   }
 }
