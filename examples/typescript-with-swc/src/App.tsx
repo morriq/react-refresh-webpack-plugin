@@ -1,11 +1,11 @@
 import { lazy, Suspense } from 'react';
-import { ArrowFunction } from './ArrowFunction';
-import ClassDefault from './ClassDefault';
-import { ClassNamed } from './ClassNamed';
-import FunctionDefault from './FunctionDefault';
-import { FunctionNamed } from './FunctionNamed';
+import { ArrowFunction } from 'src/ArrowFunction';
+import ClassDefault from 'src/ClassDefault';
+import { ClassNamed } from 'src/ClassNamed';
+import FunctionDefault from 'src/FunctionDefault';
+import { FunctionNamed } from 'src/FunctionNamed';
 
-const LazyComponent = lazy(() => import('./LazyComponent'));
+const LazyComponent = lazy(() => import('src/LazyComponent'));
 
 function App() {
   return (
